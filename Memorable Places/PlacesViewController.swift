@@ -8,10 +8,11 @@
 
 import UIKit
 
-var storedPlaces = [Dictionary<String, String>()]
 
 class PlacesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
+
+    var storedPlaces = [Dictionary<String, String>()]
 
     override func viewDidLoad() {
         super.viewDidLoad()
